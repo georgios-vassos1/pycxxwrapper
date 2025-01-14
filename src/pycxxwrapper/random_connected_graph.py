@@ -8,6 +8,7 @@ def create_random_connected_graph(n_vertices: int, n_edges: int, weights: list[i
     Parameters:
     - n_vertices: int, number of vertices in the graph.
     - n_edges: int, number of edges in the graph. Must be >= (n_vertices - 1).
+    - weights: list[int], optional, list of edge weights. If None, random weights are assigned.
 
     Returns:
     - An igraph.Graph object containing a random graph with at least one bridge.
