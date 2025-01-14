@@ -25,7 +25,14 @@ find_package(Boost REQUIRED)
 
 # Add the Pybind11 module
 # pybind11_add_module(toy toy.cpp)
-pybind11_add_module(boost_wrapper shortest_path.cpp)
+pybind11_add_module(boost_wrapper MODULE shortest_path.cpp)
 
 # Set the output directory for the shared libraries
 set_target_properties(boost_wrapper PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/src)
+
+# Specify the installation directory for the module
+install(
+    TARGETS boost_wrapper
+    DESTINATION pycxxwrapper
+)
+
