@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="e_distance" for="edge" attr.name="distance" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+    </node>
+    <node id="n1">
+    </node>
+    <node id="n2">
+    </node>
+    <node id="n3">
+    </node>
+    <node id="n4">
+    </node>
+    <node id="n5">
+    </node>
+    <node id="n6">
+    </node>
+    <node id="n7">
+    </node>
+    <node id="n8">
+    </node>
+    <node id="n9">
+    </node>
+    <edge source="n0" target="n3">
+      <data key="e_distance">24</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_distance">28</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_distance">66</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_distance">31</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="e_distance">3</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_distance">64</data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="e_distance">34</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_distance">58</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_distance">70</data>
+    </edge>
+    <edge source="n2" target="n8">
+      <data key="e_distance">96</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_distance">1</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_distance">36</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_distance">4</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_distance">35</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_distance">78</data>
+    </edge>
+  </graph>
+</graphml>
