@@ -62,7 +62,8 @@ After building the package, the project directory structure will look like this:
 │   │   ├── graph001.graphml
 │   │   ├── graph002.graphml
 │   │   ├── graph003.graphml
-│   │   └── graph004.graphml
+│   │   ├── graph004.graphml
+│   │   └── graph005.graphml
 │   ├── shortest_path_boost.py
 │   ├── shortest_path_igraph.py
 │   └── view_graph_from_file.py

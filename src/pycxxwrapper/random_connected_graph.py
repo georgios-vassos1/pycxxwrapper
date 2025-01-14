@@ -1,7 +1,7 @@
 from igraph import Graph
 import random
 
-def create_random_connected_graph(n_vertices: int, n_edges: int, weights: list[float] = None) -> Graph:
+def create_random_connected_graph(n_vertices: int, n_edges: int, weights: list[int] = None) -> Graph:
     """
     Creates a random graph with a guaranteed bridge and assigns random distances to edges.
 
